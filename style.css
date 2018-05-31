@@ -5,3 +5,9 @@
 href{
     margin-bottom: 30px;
 }
+ .table{
+     width:50%;
+     position:relative;
+     margin: auto;
+     text-align: center;
+ }
