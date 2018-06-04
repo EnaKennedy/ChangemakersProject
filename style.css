@@ -1,62 +1,87 @@
  body{
-    background-color: #bdcddc;
+    background-color: white;
     text-align: center;
-     font-family: "PT Serif Caption";
+    font-family: "Apple Symbols";
 }
+ h1{
+     font-size: 75px;
+ }
 href{
     margin-bottom: 30px;
 }
- .table{
-     width:50%;
+table{
+     width:100%;
      position:relative;
      margin: auto;
      text-align: center;
  }
 #friend{
-    width:300px;
-    height: 200px;
-    background-image:url(img/index5.jpeg);
+    background-image:url(img/index5.jpg);
     font-size:50px;
     color: rgb(255, 255, 255);
     margin: 50px;
+    background-position: center;
 }
+ #friend:hover{
+     font-size:52px;
+     color: lightgrey;
+ }
  #organization{
-     width:300px;
-     height: 200px;
      background-image:url(img/index2.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
      margin: 50px;
+     background-position: center;
+ }
+ #organization:hover{
+     font-size:52px;
+     color: lightgrey;
  }
  #partner{
-     width:300px;
-     height: 200px;
      background-image:url(img/index6.webp);
      font-size:50px;
      color: rgb(255, 255, 255);
      margin: 50px;
+     background-position: center;
+ }
+ #partner:hover{
+     font-size:52px;
+     color: lightgrey;
  }
  #school{
-     width:300px;
-     height: 200px;
      background-image:url(img/index3.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
      margin: 50px;
+     background-position: center;
+ }
+ #school:hover{
+     font-size:52px;
+     color: lightgrey;
  }
  #body{
-     width:300px;
-     height: 200px;
      background-image:url(img/index4.jpeg);
      font-size:50px;
      color: rgb(0, 0, 0);
      margin: 50px;
+     background-position: center;
+ }
+ #body:hover{
+     font-size:52px;
+     color: lightgrey;
  }
  #family{
-     width:300px;
-     height: 200px;
      background-image:url(img/index1.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
      margin: 50px;
+     background-position: center;
  }
+ #family:hover{
+     font-size:52px;
+     color: lightgrey;
+ }
+button{
+    width: 550px;
+    height: 300px;
+}
