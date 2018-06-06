@@ -1,10 +1,17 @@
  body{
     background-color: white;
     text-align: center;
-    font-family: "Apple Symbols";
+    font-family: "Century Gothic";
 }
  h1{
+     text-align: center;
      font-size: 75px;
+     font-family: "Century Gothic";
+ }
+ h2{
+     font-size:25px;
+     font-family: "Apple SD Gothic Neo";
+     color: rgba(0, 0, 0, 0.49);
  }
 href{
     margin-bottom: 30px;
@@ -16,6 +23,7 @@ table{
      text-align: center;
  }
 #friend{
+    font-family: "Apple SD Gothic Neo";
     background-image:url(img/index5.jpg);
     font-size:50px;
     color: rgb(255, 255, 255);
@@ -25,8 +33,10 @@ table{
  #friend:hover{
      font-size:52px;
      color: lightgrey;
+     opacity: 0.5;
  }
  #organization{
+     font-family: "Apple SD Gothic Neo";
      background-image:url(img/index2.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
@@ -36,9 +46,11 @@ table{
  #organization:hover{
      font-size:52px;
      color: lightgrey;
+     opacity: 0.5;
  }
  #partner{
-     background-image:url(img/index6.webp);
+     font-family: "Apple SD Gothic Neo";
+     background-image:url(img/partnerindex.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
      margin: 50px;
@@ -47,8 +59,10 @@ table{
  #partner:hover{
      font-size:52px;
      color: lightgrey;
+     opacity: 0.5;
  }
  #school{
+     font-family: "Apple SD Gothic Neo";
      background-image:url(img/index3.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
@@ -58,30 +72,54 @@ table{
  #school:hover{
      font-size:52px;
      color: lightgrey;
+     opacity: 0.5;
  }
  #body{
+     font-family: "Apple SD Gothic Neo";
      background-image:url(img/index4.jpeg);
      font-size:50px;
-     color: rgb(0, 0, 0);
+     color: rgba(0, 0, 0, 0.84);
      margin: 50px;
      background-position: center;
+     background-size: 40%;
  }
  #body:hover{
      font-size:52px;
-     color: lightgrey;
+     color: #000000;
+     opacity: 0.5;
  }
  #family{
-     background-image:url(img/index1.jpg);
+     font-family: "Apple SD Gothic Neo";
+     background-image:url(img/familyindex.jpg);
      font-size:50px;
      color: rgb(255, 255, 255);
      margin: 50px;
      background-position: center;
+     background-size: 100%;
  }
  #family:hover{
      font-size:52px;
      color: lightgrey;
+     opacity: 0.5;
  }
-button{
+.button{
     width: 550px;
     height: 300px;
+}
+#home{
+    margin: 20px;
+    font-family: "Iowan Old Style";
+    font-weight: bolder;
+    width:80px;
+    background-color: lightgrey;
+    color: black;
+    border:1px solid black;
+    text-display:inline-block;
+    border-radius:4px;
+}
+#home:hover{
+    background-color: grey;
+}
+.img:hover{
+    opacity: 0.5;
 }
