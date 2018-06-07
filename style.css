@@ -32,7 +32,7 @@ table{
 }
  #friend:hover{
      font-size:52px;
-     color: lightgrey;
+     color: #c1c1c1;
      opacity: 0.5;
  }
  #organization{
@@ -45,7 +45,7 @@ table{
  }
  #organization:hover{
      font-size:52px;
-     color: lightgrey;
+     color: #c1c1c1;
      opacity: 0.5;
  }
  #partner{
@@ -58,7 +58,7 @@ table{
  }
  #partner:hover{
      font-size:52px;
-     color: lightgrey;
+     color: #c1c1c1;
      opacity: 0.5;
  }
  #school{
@@ -71,21 +71,21 @@ table{
  }
  #school:hover{
      font-size:52px;
-     color: lightgrey;
+     color: #c1c1c1;
      opacity: 0.5;
  }
  #body{
      font-family: "Apple SD Gothic Neo";
-     background-image:url(img/index4.jpeg);
+     background-image:url(img/bodyindex.jpg);
      font-size:50px;
-     color: rgba(0, 0, 0, 0.84);
+     color: rgb(255, 255, 255);
      margin: 50px;
      background-position: center;
-     background-size: 40%;
+     background-size: 100%;
  }
  #body:hover{
      font-size:52px;
-     color: #000000;
+     color: #c1c1c1;
      opacity: 0.5;
  }
  #family{
@@ -99,7 +99,7 @@ table{
  }
  #family:hover{
      font-size:52px;
-     color: lightgrey;
+     color: #c1c1c1;
      opacity: 0.5;
  }
 .button{
