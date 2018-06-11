@@ -123,3 +123,19 @@ table{
 .img:hover{
     opacity: 0.5;
 }
+ #about{
+     font-family: "Apple SD Gothic Neo";
+     background-image:url(img/about.jpg);
+     font-size:50px;
+     color: rgb(255, 255, 255);
+     margin: 50px;
+     background-position: center;
+     background-size: 110%;
+     width:400px;
+     height:150px;
+ }
+ #family:hover{
+     font-size:52px;
+     color: #c1c1c1;
+     opacity: 0.5;
+ }
